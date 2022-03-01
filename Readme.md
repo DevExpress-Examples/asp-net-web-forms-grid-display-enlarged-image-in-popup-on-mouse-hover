@@ -16,7 +16,7 @@
 <!-- run online end -->
 
 
-<p>This example shows how to display an **ASPxPopupControl** with an enlarged image inside when you hover over a currently displayed image in the **ASPxGridView** with the mouse.</p>
+<p>This example shows how to display an <b>ASPxPopupControl</b> with an enlarged image inside when you hover over a currently displayed image in the <b>ASPxGridView</b> with the mouse.</p>
 
 <br/>
 
