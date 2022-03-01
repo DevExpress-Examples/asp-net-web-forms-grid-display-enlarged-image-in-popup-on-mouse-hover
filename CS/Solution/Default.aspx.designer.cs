@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ASPxGridVIew {
-    
-    
-    public partial class Default {
-        
+namespace Solution
+{
+
+
+    public partial class Default
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ASPxGridVIew {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// ASPxGridView1 control.
         /// </summary>
@@ -28,8 +30,8 @@ namespace ASPxGridVIew {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxGridView.ASPxGridView ASPxGridView1;
-        
+        protected global::DevExpress.Web.ASPxGridView ASPxGridView1;
+
         /// <summary>
         /// ASPxPopupControl1 control.
         /// </summary>
@@ -37,8 +39,8 @@ namespace ASPxGridVIew {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPopupControl.ASPxPopupControl ASPxPopupControl1;
-        
+        protected global::DevExpress.Web.ASPxPopupControl ASPxPopupControl1;
+
         /// <summary>
         /// Image control.
         /// </summary>
@@ -46,6 +48,6 @@ namespace ASPxGridVIew {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxImage Image;
+        protected global::DevExpress.Web.ASPxImage Image;
     }
 }

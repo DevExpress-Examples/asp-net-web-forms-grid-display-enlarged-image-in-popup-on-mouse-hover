@@ -6,9 +6,9 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Data.cs](./CS/ASPxGridVIew/Data.cs) (VB: [Data.vb](./VB/ASPxGridVIew/Data.vb))
-* [Default.aspx](./CS/ASPxGridVIew/Default.aspx) (VB: [Default.aspx](./VB/ASPxGridVIew/Default.aspx))
-* [Default.aspx.cs](./CS/ASPxGridVIew/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxGridVIew/Default.aspx.vb))
+* [Data.cs](./CS/Solution/Data.cs) (VB: [Data.vb](./VB/Solution/Data.vb))
+* [Default.aspx](./CS/Solution/Default.aspx) (VB: [Default.aspx](./VB/Solution/Default.aspx))
+* [Default.aspx.cs](./CS/Solution/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Solution/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxGridView - How to show a popup with an enlarged image on mouse hover
 <!-- run online -->
