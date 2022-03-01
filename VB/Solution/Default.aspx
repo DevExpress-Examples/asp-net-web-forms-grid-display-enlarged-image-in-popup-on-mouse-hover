@@ -1,10 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ASPxGridVIew.Default" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Default.aspx.vb" Inherits="Solution._Default" %>
 
-<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxPopupControl" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxGridView" TagPrefix="dx" %>
-<%@ Register Assembly="DevExpress.Web.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dx" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -37,7 +33,7 @@
             </Columns>
         </dx:ASPxGridView>
 
-        <dx:ASPxPopupControl ID="ASPxPopupControl1" runat="server" RenderMode="Lightweight" ShowHeader="false" ClientInstanceName="popup" CloseAction="MouseOut">
+        <dx:ASPxPopupControl ID="ASPxPopupControl1" runat="server" ShowHeader="false" ClientInstanceName="popup" CloseAction="MouseOut">
             <ContentCollection>
                 <dx:PopupControlContentControl runat="server" SupportsDisabledAttribute="True">
                     <table>
