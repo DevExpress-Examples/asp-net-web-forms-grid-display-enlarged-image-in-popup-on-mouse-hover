@@ -1,14 +1,21 @@
-﻿Public Class _Default
-	Inherits System.Web.UI.Page
+Imports System
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
 
-	Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
-		ASPxGridView1.DataSource = DataHelper.GenerateData()
-		ASPxGridView1.DataBind()
-	End Sub
+Namespace Solution
 
-	Protected Sub ASPxGridView1_HtmlDataCellPrepared(sender As Object, e As DevExpress.Web.ASPxGridViewTableDataCellEventArgs)
-		If e.DataColumn.FieldName = "ImageUrl" Then
-			e.Cell.Attributes.Add("onmouseover", String.Format("ShowPopup('{0}','{1}','{2}')", e.Cell.ClientID, e.GetValue("ImageUrl"), e.GetValue("Description")))
-		End If
-	End Sub
-End Class
+    Public Partial Class [Default]
+        Inherits Page
+
+        Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+            ASPxGridView1.DataSource = DataHelper.GenerateData()
+            ASPxGridView1.DataBind()
+        End Sub
+
+        Protected Sub ASPxGridView1_HtmlDataCellPrepared(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewTableDataCellEventArgs)
+            If Equals(e.DataColumn.FieldName, "ImageUrl") Then
+                e.Cell.Attributes.Add("onmouseover", String.Format("ShowPopup('{0}','{1}','{2}')", e.Cell.ClientID, e.GetValue("ImageUrl"), e.GetValue("Description")))
+            End If
+        End Sub
+    End Class
+End Namespace
