@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid View for ASP.NET Web Forms - How to show a popup with an enlarged image on mouse hover
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4872/)**
+**[[Run Online]](https://codecentral.devexpress.com/128535491/)**
 <!-- run online end -->
 
 This example demonstrates how to create a templated column, add an image to the template, and display the enlarged image in a pop-up window on mouse hover.
